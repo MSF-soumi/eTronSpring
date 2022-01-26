@@ -20,10 +20,10 @@ public class ETronSpringApplication {
             public void run() {
                 // Votre fonction Run
                 // Vos information de connexion à une base de données
-                String BDD = "eTronDB";
+                String BDD = "eTron";
                 String url = "jdbc:mysql://localhost:3306/" + BDD;
                 String user = "root";
-                String passwd = "Wa3raton#";
+                String passwd = "root";
                 // L'essaie de connexion à votre base de donées
                 try {
                     Class.forName("com.mysql.jdbc.Driver");
